@@ -1,0 +1,15 @@
+{
+  "name": "solswitch",
+  "version": "1.0.0",
+  "description": "One-click chain migration agent - migrate EVM positions to Solana",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'Static build - no build step needed'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "@solana/web3.js": "^1.87.6"
+  }
+}
