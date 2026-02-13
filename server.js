@@ -192,7 +192,7 @@ function getTokenPrice(symbol) {
   return prices[symbol] || 1;
 }
 
-const PORT = process.env.PORT || 3847;
+const PORT = process.env.PORT || 3900;
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`SolSwitch running on http://localhost:${PORT}`);
 });
